@@ -1,0 +1,12 @@
+package curso_rocketseat.je03_indentacao.Break_continue;
+
+public class ExemploBreakContinue {
+    public static void main(String[] args){
+        for(int i = 1;i <= 5;i++){
+            if(i ==3){
+                continue;
+            }
+            System.out.println(i);
+        }
+    }
+}
